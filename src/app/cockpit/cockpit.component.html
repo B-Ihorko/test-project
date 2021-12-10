@@ -1,0 +1,28 @@
+<div class="container post-form">
+    <h3>Add your new post</h3>
+    
+    <label>Post title</label>
+    <input 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="newPostTitle" 
+          required 
+          minlength="4">
+  
+    <label>Post Description</label>
+    <textarea 
+          type="text" 
+          class="form-control" 
+          [(ngModel)]="newPostDescription" 
+          cols="30" 
+          rows="10" 
+          required 
+          minlength="10"
+    ></textarea>
+  
+  
+    <div class="actions">
+        <button mat-button color="primary" (click)="addNewPost()">Add new post</button>
+    </div>
+  
+  </div>
