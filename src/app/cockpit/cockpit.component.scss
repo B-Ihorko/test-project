@@ -1,0 +1,19 @@
+.post-form{
+    width: 100%;
+    padding: 30px;
+    border: 1px solid;
+    label{
+        display: block;
+        margin-bottom: 15px;
+    }
+    input, textarea{
+        max-width: 500px;
+        width: 100%;
+        margin-bottom: 15px;
+        border-radius: 30px;
+        border: 1px solid green;
+        padding: 15px;
+        font-size: 22px;
+    }
+}
+
